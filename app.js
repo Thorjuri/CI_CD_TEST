@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
-const PORT = 4000;
+const PORT = 3000;
 
 
 app.get('/', (req, res)=> {
-    res.send('CI/CD 연습용 서버')
+    res.send('workflow 첫 번째 테스트 : 수정 1')
 })
 
 
